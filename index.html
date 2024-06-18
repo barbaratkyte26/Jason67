@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Germany Dedicated Server</title>
+    <meta property="og:title" content="Germany Dedicated Server" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-secondary-400);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <header class="navbar1-container">
+          <header data-thq="thq-navbar" class="navbar1-navbar-interactive">
+            <img
+              alt="EU100TB Logo"
+              src="https://eu100tb.b-cdn.net/templates/eu100tbv723/img/logo.png"
+              class="navbar1-image1"
+            />
+            <div data-thq="thq-navbar-nav" class="navbar1-desktop-menu">
+              <nav class="navbar1-links">
+                <a
+                  href="https://www.eu100tb.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar1-link1 thq-link thq-body-small"
+                >
+                  <span>Home</span>
+                </a>
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar1-link2 thq-link thq-body-small"
+                >
+                  <span>Dedicated Servers</span>
+                </a>
+                <a
+                  href="https://www.eu100tb.com/about-us/datacenter/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar1-link3 thq-link thq-body-small"
+                >
+                  <span>Data Centers</span>
+                </a>
+                <a
+                  href="https://www.eu100tb.com/about-us/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar1-link4 thq-link thq-body-small"
+                >
+                  <span>About Us</span>
+                </a>
+              </nav>
+              <div class="navbar1-buttons">
+                <a
+                  href="https://www.eu100tb.com/clientarea.php"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="navbar1-action1 thq-button-animated thq-button-filled"
+                >
+                  <span class="thq-body-small">Login</span>
+                </a>
+              </div>
+            </div>
+            <div data-thq="thq-burger-menu" class="navbar1-burger-menu">
+              <svg viewBox="0 0 1024 1024" class="navbar1-icon">
+                <path
+                  d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                ></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" class="navbar1-mobile-menu">
+              <div class="navbar1-nav">
+                <div class="navbar1-top">
+                  <img
+                    alt="EU100TB Logo"
+                    src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/84ec08e8-34e9-42c7-9445-d2806d156403/fac575ac-7a41-484f-b7ac-875042de11f8?org_if_sml=1&amp;force_format=original"
+                    class="navbar1-logo"
+                  />
+                  <div data-thq="thq-close-menu" class="navbar1-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="navbar1-icon02">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav class="navbar1-links1">
+                  <span class="thq-link thq-body-small"><span>Home</span></span>
+                  <span class="thq-link thq-body-small">
+                    <span>Dedicated Servers</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Data Centers</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>About Us</span>
+                  </span>
+                  <span class="thq-link thq-body-small">
+                    <span>Contact Us</span>
+                  </span>
+                </nav>
+                <div class="navbar1-buttons1">
+                  <button class="thq-button-filled">
+                    <span>Sign Up</span>
+                  </button>
+                  <button class="thq-button-outline"><span>Login</span></button>
+                </div>
+              </div>
+              <div class="navbar1-icon-group">
+                <svg
+                  viewBox="0 0 950.8571428571428 1024"
+                  class="thq-icon-x-small"
+                >
+                  <path
+                    d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="thq-icon-x-small"
+                >
+                  <path
+                    d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                  ></path></svg
+                ><svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  class="thq-icon-x-small"
+                >
+                  <path
+                    d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+        </header>
+        <div class="home-hero">
+          <div class="home-container01">
+            <div class="home-card">
+              <h1 class="home-text">Top-Tier Netherlands Server Hosting</h1>
+              <h1 class="home-text01">at EvoSwitch Data Center</h1>
+              <span class="home-text02">
+                It doesn't matter if you are a Large Enterprise, Medium or Small
+                Business. With our latest hardware's, you will definitely get
+                more of performance at less expense guaranteed.
+              </span>
+              <div class="home-container02">
+                <a
+                  href="https://www.eu100tb.com/contact-us/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="home-link"
+                >
+                  <div class="home-container03">
+                    <div class="primary-pink-button-container">
+                      <button
+                        class="primary-pink-button-button button ButtonSmall"
+                      >
+                        <span>contact us</span>
+                      </button>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <img
+              alt="image"
+              src="https://kuzevanov.ru/wp-content/uploads/2016/02/server_big-1024x683.jpg"
+              class="home-image"
+            />
+          </div>
+        </div>
+        <h1 class="home-text03">What's included in managed server</h1>
+        <section class="home-features">
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="https://xitheon.com/wp-content/uploads/2021/04/cpanel-logo-featured.png"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree"><span>cPanel</span></h5>
+            <span class="feature-card-text1">
+              <span>
+                Managed server comes with cPanel license with base setup and
+                support for core scripts.
+              </span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="https://sc02.alicdn.com/kf/HTB1zvvmax2rK1RkSnhJq6ykdpXat/236843460/HTB1zvvmax2rK1RkSnhJq6ykdpXat.jpg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree">
+              <span>24 x 7 Dynamic Monitoring</span>
+            </h5>
+            <span class="feature-card-text1">
+              <span>
+                We will proactively monitor your servers 24x7 to scan and
+                quarantine all problems
+              </span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="https://www.easeus.com/images/en/screenshot/todo-backup/guide/backup-software-for-windows-theme-image.png"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree">
+              <span>Automatic Data Backups</span>
+            </h5>
+            <span class="feature-card-text1">
+              <span>
+                EU100TB schedules a pre-programmed and completely automated data
+                backup plan
+              </span>
+            </span>
+          </div>
+          <div class="feature-card-container">
+            <img
+              alt="image"
+              src="https://s7.hostingkartinok.com/uploads/images/2015/09/3eb0c9e293f9e739d33819f8444fa6f6.jpg"
+              class="feature-card-image"
+            />
+            <h5 class="feature-card-text HeadingThree">
+              <span>Level-10 Support</span>
+            </h5>
+            <span class="feature-card-text1">
+              <span>
+                With the EU100TB Level-10 Support at your aid, we boast of 24x7
+                tech support and automatic administration
+              </span>
+            </span>
+          </div>
+        </section>
+        <div class="thq-section-padding">
+          <div class="hero6-max-width thq-flex-row thq-section-max-width">
+            <img
+              alt="Soft UI Design System components"
+              src="https://i.pinimg.com/originals/fd/f9/6a/fdf96ad6b0f2b0521b4549a0648914ba.jpg"
+              class="hero6-hero-image thq-img-ratio-4-3"
+            />
+            <div class="hero6-column">
+              <div class="hero6-content">
+                <h1 class="hero6-text thq-heading-1">
+                  <span>1Gbps &amp; 10Gbps Dedicated Server Hosting</span>
+                </h1>
+                <p class="thq-body-large hero6-text1">
+                  <span>
+                    EU100TB's Dedicated servers are hosted in TIER III+
+                    datacenter - Evoswitch in Haarlem, Netherlands and Telecity
+                    in Frankfurth, Germany. Both data centers are most advanced
+                    data center known for safety, professional, and
+                    climate-conscious. Each server are connected to our minimal
+                    latency private network and include a fully dedicated
+                    network for redundancy.
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="features4-layout301 thq-section-padding">
+          <div class="features4-max-width thq-section-max-width">
+            <h2 class="features4-text thq-heading-2">
+              <span>Dedicated Server Hosting</span>
+            </h2>
+            <div class="features4-row thq-grid-auto-300">
+              <div class="features4-feature1">
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/germany-unmetered-server/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="features4-link"
+                >
+                  <img
+                    alt="Soft UI Design System Image"
+                    src="https://sc02.alicdn.com/kf/HTB1AgnhJNnaK1RjSZFtq6zC2VXaP/236549931/HTB1AgnhJNnaK1RjSZFtq6zC2VXaP.jpg"
+                    class="features4-img1 thq-img-ratio-4-3"
+                  />
+                </a>
+                <div class="features4-content thq-flex-column">
+                  <div class="features4-section-title thq-flex-column">
+                    <h3 class="features4-title1 thq-heading-3">
+                      <span>Unmetered Dedicated Server Germany</span>
+                    </h3>
+                    <span class="features4-description1 thq-body-small">
+                      <span>
+                        Built with a vision to overshadow the world with our
+                        dedicated servers, we provide the most cost-effective
+                        and resilient hosting solutions for all kinds of
+                        business operations.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="features4-feature2">
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/netherlands-100tb-server/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="features4-link1"
+                >
+                  <img
+                    alt="EU100TB Managed Solutions Image"
+                    src="https://www.stratospherenetworks.com/blog/wp-content/uploads/2017/04/servers2electricboogaloo.jpg"
+                    class="features4-img2 thq-img-ratio-4-3"
+                  />
+                </a>
+                <div class="features4-content1 thq-flex-column">
+                  <div class="features4-section-title1 thq-flex-column">
+                    <strong class="features4-title2 thq-heading-3">
+                      <span>Netherlands Dedicated Server Hosting</span>
+                    </strong>
+                    <span class="features4-description2 thq-body-small">
+                      <span>
+                        Our Netherlands Servers have access to state-of-the-art
+                        networks in the world powered by 44 points of presence
+                        and 27 Internet Exchanges across the globe.
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="features4-feature3">
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/germany-100tb-server/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="features4-link2"
+                >
+                  <img
+                    alt="EvoSwitch Data Center Image"
+                    src="https://hpeb.i.lithium.com/t5/image/serverpage/image-id/93200iBDD2A7C41467C51F?v=1.0"
+                    class="features4-img3 thq-img-ratio-4-3"
+                  />
+                </a>
+                <div class="features4-content2 thq-flex-column">
+                  <div class="features4-section-title2 thq-flex-column">
+                    <strong class="features4-title3 thq-heading-3">
+                      <span>Germany Dedicated Server Hosting</span>
+                    </strong>
+                    <span class="features4-description3 thq-body-small">
+                      <span>
+                        Our Germany Servers have access to state-of-the-art
+                        networks in the world powered by 9 carriers and 16 IXs
+                        in Europe, including the DE-CIX, AMS-IX
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="features4-feature4">
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/netherlands-unmetered-server/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="features4-link3"
+                >
+                  <img
+                    alt="image 4"
+                    src="https://vitelic.com/images/post/computerserver.jpg"
+                    class="features4-img4 thq-img-ratio-4-3"
+                  />
+                </a>
+                <div class="features4-content3 thq-flex-column">
+                  <div class="features4-section-title3 thq-flex-column">
+                    <strong class="features4-title4 thq-heading-3">
+                      <span>Unmetered Dedicated Server Netherlands</span>
+                    </strong>
+                    <span class="features4-description4 thq-body-small">
+                      <span>
+                        EU100TB offer high-quality hosting solutions in the form
+                        of Netherlands server with a range of 8GB to 384GB RAM
+                        along with unmetered bandwidth
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="home-container04">
+          <div class="home-container05">
+            <h1 class="home-text04">
+              EU100TB Offer No Pain Managed Solutions for Your Dedicated Servers
+            </h1>
+            <span class="home-text05">
+              Once you sign-up for the EU100TB Managed Solutions, our
+              technicians will take care of all your dedicated hosting daily
+              routine requirements.
+            </span>
+          </div>
+          <div class="home-container06">
+            <div class="home-container07">
+              <img
+                alt="image"
+                src="https://www.intelligentdatacentres.com/wp-content/uploads/sites/34/2022/09/AdobeStock_472442089-scaled.jpeg"
+                class="home-image1"
+              />
+              <span class="home-text06">
+                <span>
+                  The EU100TB staff will make sure that all your requirements
+                  are met in due time and that the normal routine of your
+                  servers is never interrupted so that your servers are forever
+                  ready for new challenges and your business is flourishing like
+                  always.
+                </span>
+                <br class="Small" />
+              </span>
+            </div>
+            <div class="home-container08">
+              <img
+                alt="image"
+                src="https://sc04.alicdn.com/kf/H5fab72ed253b4a21a9081f2a8caa6e1cf/255877915/H5fab72ed253b4a21a9081f2a8caa6e1cf.jpg"
+                class="home-image2"
+              />
+              <div class="home-container09">
+                <h3>
+                  <span>
+                    State-of-the-Art Data Center: EvoSwitch in Haarlem
+                  </span>
+                  <br class="HeadingTwo" />
+                </h3>
+                <p>
+                  <span>
+                    EU100TB.com offers premier Netherlands dedicated server
+                    hosting, strategically located in the highly secure, ISO
+                    9001 certified EvoSwitch data center in Haarlem,
+                    Netherlands. EvoSwitch is renowned for its TIER III+
+                    classification, providing a robust infrastructure with over
+                    9,000 square meters of space. The data center features
+                    autonomous A+B power supplies, dual generator sets, and
+                    backup battery UPS, ensuring continuous power delivery for
+                    all our clients.
+                  </span>
+                  <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="home-contaier">
+          <div class="home-container10">
+            <div class="home-container11">
+              <svg viewBox="0 0 1024 1024" class="home-icon">
+                <path
+                  d="M363.722 722.052l41.298-57.816-45.254-45.256-57.818 41.296c-10.722-5.994-22.204-10.774-34.266-14.192l-11.682-70.084h-64l-11.68 70.086c-12.062 3.418-23.544 8.198-34.266 14.192l-57.818-41.298-45.256 45.256 41.298 57.816c-5.994 10.72-10.774 22.206-14.192 34.266l-70.086 11.682v64l70.086 11.682c3.418 12.060 8.198 23.544 14.192 34.266l-41.298 57.816 45.254 45.256 57.818-41.296c10.722 5.994 22.204 10.774 34.266 14.192l11.682 70.084h64l11.68-70.086c12.062-3.418 23.544-8.198 34.266-14.192l57.818 41.296 45.254-45.256-41.298-57.816c5.994-10.72 10.774-22.206 14.192-34.266l70.088-11.68v-64l-70.086-11.682c-3.418-12.060-8.198-23.544-14.192-34.266zM224 864c-35.348 0-64-28.654-64-64s28.652-64 64-64 64 28.654 64 64-28.652 64-64 64zM1024 384v-64l-67.382-12.25c-1.242-8.046-2.832-15.978-4.724-23.79l57.558-37.1-24.492-59.128-66.944 14.468c-4.214-6.91-8.726-13.62-13.492-20.13l39.006-56.342-45.256-45.254-56.342 39.006c-6.512-4.766-13.22-9.276-20.13-13.494l14.468-66.944-59.128-24.494-37.1 57.558c-7.812-1.892-15.744-3.482-23.79-4.724l-12.252-67.382h-64l-12.252 67.382c-8.046 1.242-15.976 2.832-23.79 4.724l-37.098-57.558-59.128 24.492 14.468 66.944c-6.91 4.216-13.62 8.728-20.13 13.494l-56.342-39.006-45.254 45.254 39.006 56.342c-4.766 6.51-9.278 13.22-13.494 20.13l-66.944-14.468-24.492 59.128 57.558 37.1c-1.892 7.812-3.482 15.742-4.724 23.79l-67.384 12.252v64l67.382 12.25c1.242 8.046 2.832 15.978 4.724 23.79l-57.558 37.1 24.492 59.128 66.944-14.468c4.216 6.91 8.728 13.618 13.494 20.13l-39.006 56.342 45.254 45.256 56.342-39.006c6.51 4.766 13.22 9.276 20.13 13.492l-14.468 66.944 59.128 24.492 37.102-57.558c7.81 1.892 15.742 3.482 23.788 4.724l12.252 67.384h64l12.252-67.382c8.044-1.242 15.976-2.832 23.79-4.724l37.1 57.558 59.128-24.492-14.468-66.944c6.91-4.216 13.62-8.726 20.13-13.492l56.342 39.006 45.256-45.256-39.006-56.342c4.766-6.512 9.276-13.22 13.492-20.13l66.944 14.468 24.492-59.13-57.558-37.1c1.892-7.812 3.482-15.742 4.724-23.79l67.382-12.25zM672 491.2c-76.878 0-139.2-62.322-139.2-139.2s62.32-139.2 139.2-139.2 139.2 62.322 139.2 139.2c0 76.878-62.32 139.2-139.2 139.2z"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="home-text16">What's included with</h2>
+            <h3 class="home-text17">
+              <span>EU100TB dedicated server</span>
+              <br class="home-text19 HeadingTwo" />
+            </h3>
+          </div>
+          <div class="home-container12">
+            <div class="home-container13"></div>
+            <div class="home-container14">
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>24 x 7 x 365 Support</span>
+                </h5>
+                <span>
+                  <span>
+                    It does not matter, if you have a problem or you want an
+                    answer to your query. You can reach our Level - 10 Support
+                    at any time to take suggestions for what services will best
+                    suit your business or any other thing. Our organization is
+                    built around the supreme customer service.
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>Speed and Security</span>
+                </h5>
+                <span>
+                  <span>
+                    EU100TB Servers are safeguarded by Cisco firewalls, which
+                    offer the most mainstream form of protective measures
+                    against the updated attack types. We ensure the speed of our
+                    servers with our supreme connectivity and state-of-the-art
+                    hardware that is timely updated.
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="home-divider"></div>
+          <div class="home-container15">
+            <div class="home-container16">
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>Unmatched Network and Connectivity</span>
+                </h5>
+                <span>
+                  <span>
+                    Our Netherlands servers benefit from one of the most
+                    advanced networks globally, with 44 points of presence and
+                    27 Internet Exchanges. This extensive network infrastructure
+                    provides massive bandwidth capacity, blazing speeds, and
+                    unparalleled connectivity. We pride ourselves on maintaining
+                    a core uptime of 99.95% and offer a substantial bandwidth
+                    capacity of 5.5 Tbps, ensuring that your workloads run
+                    smoothly and efficiently.
+                  </span>
+                </span>
+              </div>
+              <div class="list-item-container">
+                <h5 class="list-item-text HeadingThree">
+                  <span>Ideal for High-Demand Applications</span>
+                </h5>
+                <span>
+                  <span>
+                    If your business relies on mission-critical applications,
+                    game servers, VPN servers, or streaming servers that demand
+                    high network resources, our high bandwidth Netherlands 100TB
+                    servers are the perfect solution. Our servers are designed
+                    to handle extensive network demands, making them ideal for
+                    applications that require significant bandwidth and
+                    performance.
+                  </span>
+                </span>
+              </div>
+            </div>
+            <div class="home-container17"></div>
+          </div>
+        </section>
+        <footer class="footer4-footer7 thq-section-padding">
+          <div class="footer4-max-width thq-section-max-width">
+            <div class="footer4-content">
+              <div class="footer4-logo">
+                <img
+                  alt="Company Logo"
+                  src="https://eu100tb.b-cdn.net/templates/eu100tbv723/img/logo.png"
+                  class="footer4-logo1"
+                />
+              </div>
+              <div class="footer4-links">
+                <a
+                  href="https://www.eu100tb.com/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer4-link thq-body-small"
+                >
+                  <span>Home</span>
+                </a>
+                <a
+                  href="https://www.eu100tb.com/dedicated-hosting/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer4-link1 thq-body-small"
+                >
+                  <span>Dedicated Servers</span>
+                </a>
+                <a
+                  href="https://www.eu100tb.com/contact-us/"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  class="footer4-link2 thq-body-small"
+                >
+                  <span>Contact Us</span>
+                </a>
+              </div>
+            </div>
+            <div class="footer4-credits">
+              <div class="thq-divider-horizontal"></div>
+              <div class="footer4-row">
+                <div class="footer4-container">
+                  <span class="thq-body-small">
+                    Copyright 2024 EU100Tb All Rights Reserved.
+                  </span>
+                </div>
+                <div class="footer4-footer-links">
+                  <a
+                    href="https://www.eu100tb.com/terms-of-service/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer4-text1 thq-body-small"
+                  >
+                    <span>Terms of Service</span>
+                  </a>
+                  <a
+                    href="https://www.eu100tb.com/privacy-policy/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer4-text2 thq-body-small"
+                  >
+                    <span>Privacy</span>
+                  </a>
+                  <a
+                    href="https://www.eu100tb.com/dedicated-hosting/sla/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="footer4-text3 thq-body-small"
+                  >
+                    <span>SLA</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>

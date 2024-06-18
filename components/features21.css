@@ -1,0 +1,121 @@
+.features21-layout349 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  padding-left: 31px;
+  padding-right: 27px;
+  flex-direction: column;
+}
+.features21-max-width {
+  display: flex;
+  align-items: center;
+}
+.features21-container {
+  color: var(--dl-color-theme-neutral-light);
+  width: 293px;
+  height: 209px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+.features21-image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.features21-text {
+  font-size: 30px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.2;
+}
+.features21-container1 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 291px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+.features21-image1 {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.features21-text1 {
+  font-size: 30px;
+  margin-top: 13px;
+  text-align: center;
+  line-height: 1.2;
+}
+.features21-container2 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 335px;
+  height: auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary1);
+}
+.features21-image2 {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.features21-text2 {
+  font-size: 30px;
+  margin-top: 15px;
+  text-align: center;
+  line-height: 1.2;
+}
+.features21-container3 {
+  color: var(--dl-color-theme-neutral-light);
+  width: 298px;
+  height: 184px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-theme-primary2);
+}
+.features21-image3 {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+}
+.features21-text3 {
+  height: 43px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media(max-width: 991px) {
+  .features21-max-width {
+    gap: 32px;
+    flex-direction: column-reverse;
+  }
+}
+@media(max-width: 767px) {
+  .features21-container {
+    width: 100%;
+  }
+  .features21-container1 {
+    width: 100%;
+  }
+  .features21-container2 {
+    width: 100%;
+  }
+  .features21-container3 {
+    width: 100%;
+  }
+}

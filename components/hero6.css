@@ -1,0 +1,45 @@
+.hero6-max-width {
+  align-self: center;
+  margin-bottom: 42px;
+}
+.hero6-hero-image {
+  width: 100%;
+  height: auto;
+  max-width: 550px;
+  border-radius: 4px;
+}
+.hero6-column {
+  gap: 24px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero6-content {
+  gap: 24px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  padding-left: 44px;
+  flex-direction: column;
+}
+.hero6-text {
+  line-height: 1.3;
+}
+@media(max-width: 991px) {
+  .hero6-max-width {
+    flex-direction: column;
+  }
+  .hero6-hero-image {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .hero6-text {
+    text-align: center;
+  }
+  .hero6-text1 {
+    text-align: center;
+  }
+}
